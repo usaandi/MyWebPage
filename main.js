@@ -10,9 +10,10 @@ function rotate() {
     if (currentImg == 4) {
         currentImg = 0;
     }
-    document.getElementById("imagesBackground").src = dotaImages[currentImg];
+    var fadeinImage = document.getElementById("imagesBackground").src = dotaImages[currentImg];
 }
 
 function initAll() {
     setInterval("rotate()", 10000)
+
 }
