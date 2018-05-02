@@ -1,5 +1,5 @@
 window.onload = initAll;
-var dotaImages = new Array("Images/dota2lanes.jpg",
+var dotaImages = new Array("Images/dota2sf.jpg",
     "Images/dota2logo.jpg",
     "Images/dota2qop.jpg",
     "Images/dota2rubick.jpg");
