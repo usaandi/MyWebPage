@@ -17,7 +17,7 @@ body {
 #box {
     width: 100px;
     height: 100px;
-    position: relative;
+    top: 540px;
     border-style: solid;
     border-color: grey;
     border-width: 2px;
@@ -59,11 +59,6 @@ body {
 #projects {
     top: 140px;
     background-color: #f44336;
-}
-
-#contact {
-    top: 200px;
-    background-color: #555
 }
 
 .footer {
