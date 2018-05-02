@@ -5,7 +5,7 @@ html {
 }
 
 body {
-    overflow: hidden;
+    overflow-y: hidden;
 }
 
 #background {
@@ -14,7 +14,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(90%)
+    filter: grayscale(90%);
+    position: relative;
+    max-width: 1920px;
+    max-height: 1080px;
 }
 
 .responsive {
@@ -56,4 +59,15 @@ body {
 #contact {
     top: 200px;
     background-color: #555
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    filter: grayscale(90%)
 }
