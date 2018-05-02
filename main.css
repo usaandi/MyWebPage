@@ -12,12 +12,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(70%);
+}
+
+#box {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-style: solid;
+    border-color: grey;
+    border-width: 2px;
 }
 
 .responsive {
     max-width: 100%;
     height: auto;
+    filter: grayscale(70%);
 }
 
 #mySidenav a {
@@ -38,7 +47,7 @@ body {
 }
 
 #about {
-    top: 200px;
+    top: 20px;
     background-color: #4CAF50;
 }
 
