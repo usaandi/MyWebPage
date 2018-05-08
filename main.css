@@ -9,7 +9,15 @@ body {
 }
 
 #boxBackground {
-    filter: opacity(70%)
+    position: absolute;
+    filter: opacity(90%)
+}
+
+#BoxTitle {
+    position: absolute;
+    top: 60px;
+    color: black;
+    left: 150px
 }
 
 #background {
@@ -18,9 +26,13 @@ body {
     background-size: cover;
 }
 
+p {
+    color: black;
+}
+
 #box {
     width: 85%;
-    height: 70%;
+    height: 600px;
     top: 7%;
     left: 9%;
     color: grey;
@@ -79,3 +91,5 @@ body {
     text-align: center;
     filter: grayscale(90%)
 }
+
+;
