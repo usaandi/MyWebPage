@@ -15,9 +15,11 @@ body {
 }
 
 #box {
-    width: 100px;
-    height: 100px;
-    top: 100px;
+    width: 85%;
+    height: 70%;
+    top: 7%;
+    left: 9%;
+    color: grey;
     border-style: solid;
     border-color: grey;
     border-width: 2px;
