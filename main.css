@@ -13,11 +13,16 @@ body {
     filter: opacity(90%)
 }
 
-#BoxTitle {
+p#textBase {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+}
+
+div#BoxTitle {
     position: absolute;
-    top: 60px;
+    top: 100px;
     color: black;
-    left: 150px
+    left: 50px;
 }
 
 #background {
@@ -26,18 +31,21 @@ body {
     background-size: cover;
 }
 
-p {
+#clock {
     color: black;
+    float: right;
+    float: bottom;
+    filter: contrast(100%);
 }
 
 #box {
-    width: 85%;
+    width: 1600px;
     height: 600px;
     top: 7%;
     left: 9%;
-    color: grey;
+    color: rgb(0, 0, 0);
     border-style: solid;
-    border-color: grey;
+    border-color: black;
     border-width: 2px;
     position: absolute;
 }
@@ -45,7 +53,7 @@ p {
 .responsive {
     max-width: 100%;
     height: auto;
-    filter: grayscale(70%);
+    filter: grayscale(30%);
     position: relative;
 }
 
@@ -63,7 +71,6 @@ p {
 
 #mySidenav a:hover {
     left: 0;
-    filter: grayscale(50%)
 }
 
 #about {
