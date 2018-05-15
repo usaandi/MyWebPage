@@ -8,9 +8,33 @@ body {
     overflow-y: hidden;
 }
 
+.tablink {
+    background-color: #C1556D;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 25px 10px 10px 10px;
+    font-size: 17px;
+    width: 100px;
+}
+
+.tablink:hover {
+    background-color: #CF4460;
+}
+
+#dog {
+    position: absolute;
+}
+
 #boxBackground {
     position: absolute;
-    filter: opacity(90%)
+    filter: opacity(90%);
+}
+
+.title {
+    font-size: 26px;
 }
 
 p#textBase {
